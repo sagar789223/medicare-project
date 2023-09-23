@@ -1,0 +1,5 @@
+jdbc.url=jdbc:mysql://localhost/medicare?verifyServerCertificate=false&useSSL=false
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbc.dialect=org.hibernate.dialect.MySQL5Dialect
+jdbc.username=root
+jdbc.password=Minions@123

@@ -1,0 +1,1167 @@
+!SESSION 2023-09-21 13:03:49.226 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\.metadata\.bak_0.log
+Created Time: 2023-09-21 13:08:50.430
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-09-21 13:08:50.432
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-09-21 13:08:50.434
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-09-21 13:10:12.613
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-09-21 13:10:12.614
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-09-21 13:12:45.390
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://download.oracle.com/otn_software/oepe/library/eclipse-4.8/content.jar.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:454)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:266)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: javax.net.ssl.SSLException: Tag mismatch
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:132)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:123)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:195)
+	at org.apache.hc.core5.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:173)
+	at org.apache.hc.core5.http.io.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:180)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	... 1 more
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch
+	at java.base/com.sun.crypto.provider.GaloisCounterMode$GCMDecrypt.doFinal(GaloisCounterMode.java:1645)
+	at java.base/com.sun.crypto.provider.GaloisCounterMode.engineDoFinal(GaloisCounterMode.java:458)
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2543)
+	at java.base/sun.security.ssl.SSLCipher$T13GcmReadCipherGenerator$GcmReadCipher.decrypt(SSLCipher.java:1908)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:264)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2023-09-21 13:12:45.392
+!MESSAGE Unable to read repository at https://download.oracle.com/otn_software/oepe/library/eclipse-4.8/content.jar.
+!STACK 0
+javax.net.ssl.SSLException: Tag mismatch
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:132)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:123)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:195)
+	at org.apache.hc.core5.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:173)
+	at org.apache.hc.core5.http.io.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:180)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch
+	at java.base/com.sun.crypto.provider.GaloisCounterMode$GCMDecrypt.doFinal(GaloisCounterMode.java:1645)
+	at java.base/com.sun.crypto.provider.GaloisCounterMode.engineDoFinal(GaloisCounterMode.java:458)
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2543)
+	at java.base/sun.security.ssl.SSLCipher$T13GcmReadCipherGenerator$GcmReadCipher.decrypt(SSLCipher.java:1908)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:264)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	... 11 more
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:27.954
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.beust.jcommander.source,1.82.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:27.955
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.beust.jcommander,1.82.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:27.956
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,slf4j.api.source,1.7.36 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:28.004
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,slf4j.api,1.7.36 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:29.134
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.webjars.jquery.source,3.6.1 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:29.134
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.webjars.jquery,3.6.1 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:30.437
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.testng,7.8.0.r202306071539 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:30.437
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.testng.source,7.8.0.r202306071539 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:30.440
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.testng.p2.feature,7.8.0.r202306071539 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 13:25:39.743
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,javaewah,1.1.6.v20160919-1400 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-09-21 13:25:40.533
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.slf4j.binding.simple,1.7.10.v20160301-1109.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-21 13:27:10.552
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-09-21 13:27:12.118 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-21 13:27:21.511
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-21 13:27:21.807
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-21 13:27:27.634
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-21 13:27:28.425
+!MESSAGE Logback config file: C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-09-21 13:27:31.005
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-21 13:27:31.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-21 13:27:40.604
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\waagh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2023-09-21 13:38:13.173
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59429 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse-1739396952\testng-customsuite.xml
+java -ea -classpath C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes:C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar:C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar:C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar:C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses:C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar org.testng.remote.RemoteTestNG -serport 59429 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse-1739396952\testng-customsuite.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.209
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.216
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.218
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.219
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.274
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 13:42:41.282
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:56.995
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.159
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.219
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.471
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.481
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.491
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.522
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.533
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.543
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.547
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.559
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.569
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.579
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 13:44:57.589
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.testng.eclipse 1 0 2023-09-21 15:55:56.004
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63171 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--1428336279\testng-customsuite.xml
+java -ea -classpath C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes:C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar:C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar:C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar:C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses:C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar org.testng.remote.RemoteTestNG -serport 63171 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--1428336279\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 15:56:47.972
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:998)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:415)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:278)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:232)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-09-21 15:56:47.977
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:35)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:998)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:415)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:278)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:232)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:00:31.680
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:00:31.684
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.027
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.028
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.030
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.031
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.042
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 16:01:01.047
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-21 16:01:50.107
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-21 16:01:51.121
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.testng.eclipse 1 0 2023-09-21 16:01:59.716
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63370 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--979766679\testng-customsuite.xml
+java -ea -classpath C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes:C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar:C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar:C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar:C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses:C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar org.testng.remote.RemoteTestNG -serport 63370 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--979766679\testng-customsuite.xml
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:02:29.678
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:02:29.682
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-21 16:10:11.879
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.testng.eclipse 1 0 2023-09-21 16:10:41.207
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63688 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--118950929\testng-customsuite.xml
+java -ea -classpath C:\Users\waagh\eclipse\jee-2023-09\eclipse\configuration\org.eclipse.osgi\987\0\.cp\lib\testng-remote.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\build\classes:C:\tomcat\apache-tomcat-8.5.92\lib\annotations-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ant.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-ha.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-storeconfig.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina-tribes.jar:C:\tomcat\apache-tomcat-8.5.92\lib\catalina.jar:C:\tomcat\apache-tomcat-8.5.92\lib\ecj-4.6.3.jar:C:\tomcat\apache-tomcat-8.5.92\lib\el-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper-el.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jasper.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jaspic-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\jsp-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\servlet-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-api.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-coyote.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-dbcp.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-de.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-es.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-fr.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ja.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ko.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-ru.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-i18n-zh-CN.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jdbc.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-jni.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util-scan.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-util.jar:C:\tomcat\apache-tomcat-8.5.92\lib\tomcat-websocket.jar:C:\tomcat\apache-tomcat-8.5.92\lib\websocket-api.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\antlr-2.7.7.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\aopalliance-1.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\classmate-1.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-dbcp2-2.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-logging-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\commons-pool2-2.4.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\dom4j-1.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\h2-1.4.200.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-core-5.2.7.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\hibernate-validator-5.4.1.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-annotations-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-core-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jackson-databind-2.10.3.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jandex-2.0.3.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\javassist-3.20.0-GA.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jaxb-api-2.3.0.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jboss-logging-3.3.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jcl-over-slf4j-1.7.24.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\jstl-1.2.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-classic-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\logback-core-1.2.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\medicarebackend-0.0.1-SNAPSHOT.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\mysql-connector-java-8.0.20.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\ognl-2.6.11.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\protobuf-java-3.6.1.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\slf4j-api-1.7.22.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-aop-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-beans-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-binding-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-context-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-core-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-expression-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-jdbc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-js-resources-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-orm-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-acl-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-config-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-core-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-taglibs-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-security-web-4.2.2.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-tx-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-web-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webflow-2.4.4.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\spring-webmvc-4.3.6.RELEASE.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\webapp\WEB-INF\lib\validation-api-1.1.0.Final.jar:C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\src\main\ImportedClasses:C:\Users\waagh\.p2\pool\plugins\org.junit_4.13.2.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest_2.2.0.jar:C:\Users\waagh\.p2\pool\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar:C:\Users\waagh\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\waagh\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\waagh\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\waagh\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\waagh\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar org.testng.remote.RemoteTestNG -serport 63688 -protocol json -d C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\medicare\test-output C:\Users\waagh\AppData\Local\Temp\testng-eclipse--118950929\testng-customsuite.xml
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:13:51.002
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-21 16:13:51.005
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-09-21 22:33:27.221
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:465)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:285)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy16/jdk.proxy16.$Proxy56.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:463)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:373)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.928
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.929
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.931
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.932
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-21 22:33:27.948
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-09-21 22:53:03.557
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.createImage(SharedLabelProvider.java:120)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.get(SharedLabelProvider.java:96)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.get(SharedLabelProvider.java:85)
+	at org.eclipse.pde.internal.ui.correction.java.SearchRepositoriesForIUProposal.getImage(SearchRepositoriesForIUProposal.java:83)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalLink(AbstractAnnotationHover.java:492)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalsList(AbstractAnnotationHover.java:396)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalsControl(AbstractAnnotationHover.java:377)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:306)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:190)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1151)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:884)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:237)
+	at org.eclipse.jface.text.TextViewerHoverManager.lambda$3(TextViewerHoverManager.java:227)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-09-21 22:53:03.617
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wst.xml.ui.internal.ImageDescriptorRegistry.getImage(ImageDescriptorRegistry.java:36)
+	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.createPages(XMLMultiPageEditorPart.java:795)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:971)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:936)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:142)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:313)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:661)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3233)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3082)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:801)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:798)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1121)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:452)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-09-21 22:53:03.619
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wst.xml.ui.internal.ImageDescriptorRegistry.getImage(ImageDescriptorRegistry.java:36)
+	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.createPages(XMLMultiPageEditorPart.java:794)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:971)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:936)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:142)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:313)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:661)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3233)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3082)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:801)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:798)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1121)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:452)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2023-09-22 14:44:20.230 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-22 14:47:44.344
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-22 14:47:46.746
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-22 14:48:31.855
+!MESSAGE Logback config file: C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.osgi 4 0 2023-09-22 14:48:40.391
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4944)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Control.createHandle(Control.java:718)
+	at org.eclipse.swt.widgets.Scrollable.createHandle(Scrollable.java:145)
+	at org.eclipse.swt.widgets.Composite.createHandle(Composite.java:294)
+	at org.eclipse.swt.widgets.Control.createWidget(Control.java:744)
+	at org.eclipse.swt.widgets.Scrollable.createWidget(Scrollable.java:160)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:116)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:85)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:99)
+	at org.eclipse.ui.splash.BasicSplashHandler.getBundleProgressMonitor(BasicSplashHandler.java:136)
+	at org.eclipse.ui.splash.BasicSplashHandler.getContent(BasicSplashHandler.java:222)
+	at org.eclipse.ui.internal.splash.EclipseSplashHandler.init(EclipseSplashHandler.java:99)
+	at org.eclipse.ui.internal.Workbench$3.run(Workbench.java:815)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:829)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:613)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2023-09-22 14:52:23.873 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-22 14:52:29.879
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-22 14:52:30.317
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-22 14:52:34.932
+!MESSAGE Logback config file: C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-09-22 14:52:43.924
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-22 14:52:43.924
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-22 14:53:48.199
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\waagh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2023-09-22 14:57:03.205
+!MESSAGE Server apache-tomcat-8.5.92 at localhost (2) was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.
+!SESSION 2023-09-23 19:32:41.921 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-23 19:32:48.054
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-23 19:32:48.558
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-23 19:33:04.924
+!MESSAGE Logback config file: C:\Users\waagh\eclipse-workspace\capstone medicare\capstone 1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-09-23 19:33:09.055
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-23 19:33:09.055
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-23 19:33:30.142
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\waagh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-09-23 19:34:09.016
+!MESSAGE Module cannot be null
+!STACK 0
+java.lang.IllegalArgumentException: Module cannot be null
+	at org.eclipse.wst.server.core.internal.Server.removeServerListener(Server.java:705)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2.dispose(ServersView2.java:414)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:264)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:421)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:971)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:936)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:184)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:177)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:103)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:487)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:947)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:113)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1410)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1340)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1337)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1197)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1970)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:55.880
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:55.944
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.020
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.307
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.323
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.370
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.384
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.399
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.415
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.425
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.439
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.478
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.506
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.538
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.984
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.987
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.989
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.993
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:56.996
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.000
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.003
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.007
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.010
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.013
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-09-23 19:34:57.016
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource

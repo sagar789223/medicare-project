@@ -1,0 +1,104 @@
+package medicare_admin;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
+
+
+public class SignUp {
+
+    private WebDriver driver;
+    private WebDriverWait wait;
+
+    @BeforeMethod
+	@BeforeTest
+    public void setUp() {
+        // Set the path to the Chrome WebDriver executable
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        // Initialize ChromeDriver
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+    }
+
+    @Test
+    public void signUpTest() {
+        // Step 1: Open the Medicare website
+        driver.get("http://localhost:8081/medicare/home");
+
+        // Step 2: Click on the "Sign Up" button
+        WebElement signUpButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='signup']/a")));
+        signUpButton.click();
+        sleep(10000); // Pause for 10 seconds
+
+        // Step 3: Fill in the sign-up form
+        WebElement firstName = driver.findElement(By.xpath("//*[@id='firstName']"));
+        WebElement lastName = driver.findElement(By.xpath("//*[@id='lastName']"));
+        WebElement email = driver.findElement(By.xpath("//*[@id='email']"));
+        WebElement contactNumber = driver.findElement(By.xpath("//*[@id='contactNumber']"));
+        WebElement password = driver.findElement(By.xpath("//*[@id='password']"));
+        WebElement confirmPassword = driver.findElement(By.xpath("//*[@id='confirmPassword']"));
+
+        firstName.sendKeys("sagar");
+        lastName.sendKeys("Y");
+        email.sendKeys("sagarsahana7@gmail.com");
+        contactNumber.sendKeys("7892237979");
+        password.sendKeys("sagar51@");
+        confirmPassword.sendKeys("sagar51@");
+     // Add a delay of 30 seconds to wait for the server to start
+        sleep(30000);
+
+        // Proceed with your test code after the delay
+
+
+        // Step 4: Click the registration button
+        WebElement registerButton = driver.findElement(By.xpath("//*[@id='registerForm']/div[8]/div/button"));
+        registerButton.click();
+        sleep(10000); // Pause for 10 seconds
+
+        // Step 5: Upload address details
+        WebElement addressLineOne = driver.findElement(By.xpath("//*[@id='addressLineOne']"));
+        WebElement addressLineTwo = driver.findElement(By.xpath("//*[@id='addressLineTwo']"));
+        WebElement city = driver.findElement(By.xpath("//*[@id='city']"));
+        WebElement postalCode = driver.findElement(By.xpath("//*[@id='postalCode']"));
+        WebElement state = driver.findElement(By.xpath("//*[@id='state']"));
+        WebElement country = driver.findElement(By.xpath("//*[@id='country']"));
+
+        addressLineOne.sendKeys("hanumath nagar");
+        addressLineTwo.sendKeys("near iti college");
+        city.sendKeys("siruguppa");
+        postalCode.sendKeys("583121");
+        state.sendKeys("karnataka");
+        country.sendKeys("india");
+        sleep(10000); // Pause for 10 seconds
+
+        // Step 6: Click the billing form submit button
+        WebElement billingSubmitButton = driver.findElement(By.xpath("//*[@id='billingForm']/div[7]/div/button[2]"));
+        billingSubmitButton.click();
+        sleep(10000); // Pause for 10 seconds
+
+        // Step 7: Click the confirm button on the final page
+        WebElement confirmButton = driver.findElement(By.xpath("/html/body/div[2]/div[1]/div/div[2]/div/div/a"));
+        confirmButton.click();
+
+        // Add assertions or verifications here as needed
+    }
+
+    // Helper method to pause execution
+    private void sleep(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
